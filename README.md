@@ -1,5 +1,3 @@
-<img src="assets/icon.svg" width="64" height="64" alt="">
-
 # hiraishin
 
 A fuzzy finder for [Zellij](https://zellij.dev) that searches **every session, tab and pane** on your machine and jumps straight to the one you pick, including panes in other sessions.
