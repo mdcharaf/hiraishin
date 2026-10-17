@@ -1,0 +1,14 @@
+[package]
+name = "hiraishin"
+version = "0.1.0"
+edition = "2024"
+description = "Fuzzy-find and jump to any Zellij session, tab or pane"
+
+[dependencies]
+zellij-tile = "0.45"
+fuzzy-matcher = "0.3"
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true
